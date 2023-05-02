@@ -7,18 +7,18 @@
 </head>
 <body>
 	
-<form>
+<form method="POST" action="registrar.php">
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Identificacion</label>
-    <input type="text" class="form-control" id="Identificador" name="identificador">
+    <label for="exampleInputEmail1" class="form-label">identificacion</label>
+    <input type="text" class="form-control" id="identificador" name="identificador">
     
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Nombre</label>
-    <input type="text" class="form-control" id="Nombre" name="Identificar">
+    <label for="exampleInputPassword1" class="form-label">nombre</label>
+    <input type="text" class="form-control" id="nombre" name="nombre">
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Detalle</label>
-    <input type="text" class="form-control" id="detalle">
+    <label for="exampleInputPassword1" class="form-label">detalle</label>
+    <input type="text" class="form-control" id="detalle" name="detalle">
   </div>
   <button type="submit" class="btn btn-primary">Registrar</button>
 </form>
